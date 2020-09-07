@@ -1,0 +1,3 @@
+Import "ImportTestPart2.sb"
+
+TextWindow.WriteLine("Import Test Part 1")

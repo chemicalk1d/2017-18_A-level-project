@@ -1,0 +1,5 @@
+﻿1>------ Build started: Project: Interpreter Project, Configuration: Debug Win32 ------
+1>TreeInterpreter.cpp
+1>Interpreter Project.vcxproj -> C:\Users\Lewis\documents\visual studio 2017\Projects\Interpreter Project\Debug\Interpreter Project.exe
+1>Interpreter Project.vcxproj -> C:\Users\Lewis\documents\visual studio 2017\Projects\Interpreter Project\Debug\Interpreter Project.pdb (Partial PDB)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

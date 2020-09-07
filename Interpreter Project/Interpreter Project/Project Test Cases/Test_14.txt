@@ -1,0 +1,5 @@
+label1:
+x = "Code"
+Goto label1 
+
+

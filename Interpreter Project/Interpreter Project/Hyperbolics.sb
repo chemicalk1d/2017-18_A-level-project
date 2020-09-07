@@ -1,0 +1,29 @@
+'Sinh_angle is parameter 1
+'Sinh_result is the result
+Sub Sinh
+	'e^x - e^-x
+	'----------
+	'    2     
+	
+	Sinh_result = (Math.Power(2.7182818284, Sinh_angle) - Math.Power(2.7182818284, -Sinh_angle)) / 2
+EndSub
+
+'Cosh_angle is parameter 1
+'Cosh_result is the result
+Sub Cosh
+	'e^x + e^-x
+	'----------
+	'    2     
+	
+	Cosh_result = (Math.Power(2.7182818284, Cosh_angle) + Math.Power(2.7182818284, -Cosh_angle)) / 2
+EndSub
+
+'Tanh_angle is parameter 1
+'Tanh_result is the result
+Sub Tanh
+	'e^2x - 1
+	'--------
+	'e^2x + 1
+
+	Tanh_result = (Math.Power(2.7182818284, 2*Tanh_angle) - 1) / (Math.Power(2.7182818284, 2*Tanh_angle) + 1)
+EndSub

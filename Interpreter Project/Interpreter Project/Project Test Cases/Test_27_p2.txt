@@ -1,0 +1,4 @@
+Sub TestSub2
+	TextWindow.WriteLine("Test_27_p2.txt")
+EndSub
+

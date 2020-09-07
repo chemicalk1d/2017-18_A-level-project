@@ -1,0 +1,6 @@
+i = 0
+While True 
+	TextWindow.WriteLine("Looping: " + i)
+	i = i + 1
+EndWhile
+

@@ -1,0 +1,25 @@
+'Hyperbolics Test
+
+Import "Hyperbolics.sb"
+
+For count = -3 To 3 Step 0.05
+	Sinh_angle = count
+	Sinh()
+	TextWindow.WriteLine("Sinh " + count + " = " + Sinh_result)
+EndFor
+
+TextWindow.WriteLine("")
+
+For count = -3 To 3 Step 0.05
+	Cosh_angle = count
+	Cosh()
+	TextWindow.WriteLine("Cosh " + count + " = " + Cosh_result)
+EndFor
+
+TextWindow.WriteLine("")
+
+For count = -3 To 3 Step 0.05
+	Tanh_angle = count
+	Tanh()
+	TextWindow.WriteLine("Tanh " + count + " = " + Tanh_result)
+EndFor

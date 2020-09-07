@@ -1,0 +1,9 @@
+TextWindow.WriteLine("Start")
+TestSub()
+TextWindow.WriteLine("End")
+Program.End()
+
+Sub TestSub
+	TextWindow.WriteLine("Inside Subroutine")
+EndSub
+

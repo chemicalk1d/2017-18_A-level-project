@@ -1,0 +1,5 @@
+For i = 0 To 16
+  TextWindow.BackgroundColor = i
+  TextWindow.WriteLine("                      ")
+EndFor
+  

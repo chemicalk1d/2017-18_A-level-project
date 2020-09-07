@@ -1,0 +1,7 @@
+Import "Test_28.txt"
+
+Sub TestSub1
+	TextWindow.WriteLine("Test_28_p1.txt")
+EndSub 
+
+

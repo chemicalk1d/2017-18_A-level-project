@@ -1,0 +1,7 @@
+i = 10
+TextWindow.Write("Enter a Number: ")
+input = TextWindow.ReadNumber()
+
+If input < i Then
+	TextWindow.WriteLine("Less than")
+EndIf

@@ -1,0 +1,4 @@
+x = Math.Tan(5, 4)
+TextWindow.WriteLine("x = " + x)
+
+

@@ -1,0 +1,6 @@
+TextWindow.WriteLine("outside subroutine")
+test()
+
+Sub test
+TextWindow.WriteLine("inside subroutine")
+EndSub

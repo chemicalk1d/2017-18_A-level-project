@@ -1,0 +1,21 @@
+a = 0
+While a < 100
+	a = a + 1
+	
+	b = 0
+	While b < 100
+		b = b + 1
+		
+		c = 0
+		While c < 100
+			c = c + 1
+			
+			d = 0
+			While d < 100
+				d = d + 1
+			EndWhile
+		EndWhile
+	EndWhile
+EndWhile 
+
+

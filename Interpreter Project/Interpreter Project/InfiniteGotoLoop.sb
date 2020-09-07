@@ -1,0 +1,5 @@
+i = 1
+Loop:
+TextWindow.WriteLine("i = " + i)
+i = i + 1
+Goto Loop

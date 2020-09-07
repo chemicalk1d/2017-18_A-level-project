@@ -1,0 +1,2 @@
+result = -(5 + 8 * Math.Max(5, 6))
+

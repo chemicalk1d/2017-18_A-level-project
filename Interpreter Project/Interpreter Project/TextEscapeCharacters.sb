@@ -1,0 +1,2 @@
+TextWindow.WriteLine("Hello\nWorld")
+TextWindow.WriteLine("\tTabbed")

@@ -1,0 +1,7 @@
+TextWindow.WriteLine("Hello World")
+x = 5
+y = 7
+z = x + y
+TextWindow.WriteLine("z = " + z)
+
+

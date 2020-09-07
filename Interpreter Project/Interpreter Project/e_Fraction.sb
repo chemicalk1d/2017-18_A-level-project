@@ -1,0 +1,65 @@
+' sum of 1/r! as r approaches infinity
+
+AddFraction_a_n = 1
+AddFraction_a_d = 1
+
+For count = 1 To 10
+
+	Factorial_total = 1
+	Factorial_N = count
+	Factorial()
+
+	AddFraction_b_n = 1
+	AddFraction_b_d = Factorial_total
+
+	AddFraction()
+
+	AddFraction_a_n = AddFraction_c_n
+	AddFraction_a_d = AddFraction_c_d
+
+	TextWindow.WriteLine(AddFraction_c_n)
+	TextWindow.WriteLine("--------------")
+	TextWindow.WriteLine(AddFraction_c_d)
+	TextWindow.WriteLine("")
+EndFor
+
+'AddFraction_a_n - fraction 1 numerator
+'AddFraction_a_d - fraction 1 denominator
+'AddFraction_b_n - fraction 2 numerator
+'AddFraction_b_d - fraction 2 numerator
+Sub AddFraction
+	AddFraction_c_n = AddFraction_a_n*AddFraction_b_d + AddFraction_b_n*AddFraction_a_d
+	AddFraction_c_d = AddFraction_a_d*AddFraction_b_d
+
+	Simplify()
+EndSub
+
+Sub Simplify
+	'c = 2
+	
+	'While (c <= (AddFraction_c_d/2))
+	'	If (Math.Remainder(AddFraction_c_d, c)=0 And Math.Remainder(AddFraction_c_n, c)=0) Then
+	'		AddFraction_c_n = AddFraction_c_n/c
+	'		AddFraction_c_d = AddFraction_c_d/c
+	'	EndIf
+	'EndWhile
+	
+	While (Math.Remainder(AddFraction_c_d, 2)=0 And Math.Remainder(AddFraction_c_n, 2)=0)
+		AddFraction_c_n = AddFraction_c_n/2
+		AddFraction_c_d = AddFraction_c_d/2
+	EndWhile
+	
+EndSub
+
+
+'Params Factorial_N
+'Must set Factorial_total to 1 before you start
+Sub Factorial
+	If Factorial_N < 2 Then
+		'do nothing just end
+	Else
+		Factorial_total = Factorial_total * Factorial_N
+		Factorial_N = Factorial_N - 1
+		Factorial()
+	EndIf
+EndSub

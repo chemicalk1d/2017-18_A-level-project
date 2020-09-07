@@ -1,0 +1,10 @@
+x = 7
+y = 2
+z = x + y
+w = 2 * (x + y)
+
+TextWindow.WriteLine("x = " + x)
+TextWindow.WriteLine("y = " + y)
+TextWindow.WriteLine("z = " + z)
+TextWindow.WriteLine("w = " + w)
+

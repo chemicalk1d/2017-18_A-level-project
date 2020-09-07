@@ -1,0 +1,6 @@
+TextWindow.Write("Enter a number: ")
+input = TextWindow.ReadNumber()
+
+For i = 1 To input
+	TextWindow.WriteLine(input + " / " + i + " = " + (input/i))
+EndFor

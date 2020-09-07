@@ -1,0 +1,9 @@
+i = 0
+While 1 = 1
+	TextWindow.WriteLine("i = " + i)
+	i = i + 1
+	If i > 100 Then
+		Break
+	EndIf
+EndWhile
+TextWindow.WriteLine("End")

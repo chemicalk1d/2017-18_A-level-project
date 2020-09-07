@@ -1,0 +1,16 @@
+TextWindow.Write("Enter y: ")
+x = TextWindow.Read()
+
+If x = "y" Then
+	If 1 = 1 Then
+		If 1 = 1 Then
+			If 1 = 1 Then
+				If 1 = 1 Then
+					TextWindow.WriteLine("Test Complete")
+				EndIf
+			EndIf
+		EndIf
+	EndIf
+EndIf
+ 
+ 

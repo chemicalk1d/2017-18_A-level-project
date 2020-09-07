@@ -1,0 +1,6 @@
+'All of these lines are preceded by single quotes and therefore
+'should not be treated as code by the interpreter program.
+'The lexer part of the interpreter program should be the part
+'of the program to get rid of these comments.
+
+TextWindow.WriteLine("Hello, World")

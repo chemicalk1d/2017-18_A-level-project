@@ -1,0 +1,8 @@
+N = 2000
+
+For count = (N/2) To 2 Step -1
+	TextWindow.WriteLine("Count: " + count)
+EndFor
+
+
+

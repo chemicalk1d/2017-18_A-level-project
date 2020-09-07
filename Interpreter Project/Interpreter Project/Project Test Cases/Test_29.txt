@@ -1,0 +1,3 @@
+x = True + 5					 'incorrect / makes no sense
+TextWindow.WriteLine("x = " + x) 'correct / concatenation of the string and the integer 
+

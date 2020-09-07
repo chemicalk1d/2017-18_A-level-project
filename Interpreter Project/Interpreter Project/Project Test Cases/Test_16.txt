@@ -1,0 +1,9 @@
+If input < i Then
+	TextWindow.WriteLine("Less than i")
+ElseIf input > i And input < j Then
+	TextWindow.WriteLine("Greater Than i and less than j")
+Else
+	TextWindow.WriteLine("other option")
+	
+	
+	

@@ -1,0 +1,11 @@
+i = 1
+While i < 2000
+	TextWindow.WriteLine("i = " + i)
+	If i = 1000 Then
+		Break
+	EndIf
+	i = i + 1
+EndWhile
+
+TextWindow.WriteLine("End")
+

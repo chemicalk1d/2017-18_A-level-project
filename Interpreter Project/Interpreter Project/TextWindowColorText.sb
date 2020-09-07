@@ -1,0 +1,3 @@
+TextWindow.ForegroundColor = "white"
+TextWindow.BackgroundColor = "blue"
+TextWindow.WriteLine("This Should Be Blue and White")

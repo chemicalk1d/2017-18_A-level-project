@@ -1,0 +1,15 @@
+TextWindow.WriteLine("Start")
+Goto label2
+
+label1:
+TextWindow.WriteLine("Label 1")
+Goto End
+
+label2:
+TextWindow.WriteLine("Label 2")
+Goto label1
+
+End:
+TextWindow.WriteLine("End")
+
+

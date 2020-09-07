@@ -1,0 +1,4 @@
+For i = 0 100 Step 2
+	TextWindow.WriteLine("i = " + i)
+EndFor 
+

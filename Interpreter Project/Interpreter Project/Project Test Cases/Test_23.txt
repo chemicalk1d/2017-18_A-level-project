@@ -1,0 +1,10 @@
+For a = 0 To 100
+	For b = 0 To 100
+		For c = 0 To 100
+			For d = 0 To 100
+				'do nothing
+			EndFor
+		EndFor	
+	EndFor
+EndFor
+

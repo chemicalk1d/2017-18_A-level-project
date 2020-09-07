@@ -1,0 +1,14 @@
+TextWindow.Write("Enter a number to test if prime: ")
+input = TextWindow.ReadNumber()
+
+For i = 2 To Math.Ceiling(Math.SquareRoot(input))
+	If Math.Remainder(input, i) = 0 Then
+		Goto NotPrime
+	EndIf
+EndFor
+
+TextWindow.WriteLine("Your Number Is Prime")
+Program.End()
+
+NotPrime:
+TextWindow.WriteLine("Your Number Is Not Prime, It is Divisible By " + i)

@@ -1,0 +1,18 @@
+For i = 0 To 20
+	total = 1
+	n = i
+	Factorial()
+	TextWindow.WriteLine(i + "! = " + total)
+EndFor
+
+Sub Factorial
+	If n <= 1 Then
+		Goto end
+	Else
+		total = total * n
+		n = n - 1
+		Factorial()
+	EndIf
+end:
+EndSub
+

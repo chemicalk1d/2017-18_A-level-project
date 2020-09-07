@@ -1,0 +1,12 @@
+i = 10
+j = 20
+TextWindow.Write("Enter a Number: ")
+input = TextWindow.ReadNumber()
+
+If input < i Then
+	TextWindow.WriteLine("Less than i")
+ElseIf input > i And input < j Then
+	TextWindow.WriteLine("Greater Than i and less than j")
+Else
+	TextWindow.WriteLine("other option")
+EndIf

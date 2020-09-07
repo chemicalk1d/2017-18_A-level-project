@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{afcc58b1-97bf-4032-b9f6-7c608290817b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpreter">
+      <UniqueIdentifier>{c0eff42d-cad7-46f8-be58-b22828d4adcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{4e4fa42f-d1b0-43be-9a34-171b2e2c091e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example Code">
+      <UniqueIdentifier>{e3798f70-f3a5-4b4b-b7bc-f2cedac6ddc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpreter\Small Basic Objects">
+      <UniqueIdentifier>{9a759c18-4d0b-41d2-80ab-66d061e3e9be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexer.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="TextWindow.cpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="InterpreterInit.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="ParserExpressionParsing.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="ParserOther.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="InterpreterExpressionEvaluation.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="InterpreterStatementEvaluation.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="InterpreterOther.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="Value.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportHandling.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="ParserStatementParsing.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Token.hpp">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer.hpp">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Expressions.hpp">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.hpp">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Statements.hpp">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Value.hpp">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractSyntaxTree.hpp">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="InterpreterUtils.hpp">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpreter.hpp">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.hpp">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\conmanip.h" />
+    <ClInclude Include="Text.hpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="File.hpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.hpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="TextWindow.hpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.hpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Methods.hpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.hpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.hpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportHandling.hpp">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.hpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="List.hpp">
+      <Filter>Interpreter\Small Basic Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HelloWorld.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="Input.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="TextWindowColorText.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="TextWindowTitle.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="IfStatement.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="IfElseStatement.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="IfElseIfElseStatement.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="WhileLoop.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="ForLoop.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="InfiniteGotoLoop.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="CommentTest.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="PrimalityTest.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="Dividing.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="SubroutineTest.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="Factorial.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="BreakStatement.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="ContinueStatement.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="ForLoop2.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="ImportTest.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="ImportTestPart2.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="e_Fraction.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="ForLoop3.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="Hyperbolics.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="HyperbolicsTest.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="TextEscapeCharacters.sb">
+      <Filter>Example Code</Filter>
+    </None>
+    <None Include="ParserStackTest.sb">
+      <Filter>Example Code</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TODO List.txt" />
+  </ItemGroup>
+</Project>
